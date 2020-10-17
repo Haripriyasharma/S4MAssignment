@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="6" total="13" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-10-17T22:54:24 IST" name="Suite" finished-at="2020-10-17T22:57:10 IST" duration-ms="165724">
+    <groups>
+    </groups>
+    <test started-at="2020-10-17T22:54:24 IST" name="Test" finished-at="2020-10-17T22:57:10 IST" duration-ms="165724">
+      <class name="com.facebook.tests.FindFriendsTest">
+        <test-method signature="findFriendsTest(java.lang.String, java.lang.Boolean)[pri:0, instance:com.facebook.tests.FindFriendsTest@3f191845]" started-at="2020-10-17T22:56:13 IST" name="findFriendsTest" data-provider="friendname" finished-at="2020-10-17T22:56:41 IST" duration-ms="28060" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Haripriya]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findFriendsTest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.facebook.tests.FindFriendsTest@3f191845]" started-at="2020-10-17T22:56:41 IST" name="getResult" finished-at="2020-10-17T22:56:41 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=findFriendsTest status=SUCCESS method=FindFriendsTest.findFriendsTest(java.lang.String, java.lang.Boolean)[pri:0, instance:com.facebook.tests.FindFriendsTest@3f191845] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="findFriendsTest(java.lang.String, java.lang.Boolean)[pri:0, instance:com.facebook.tests.FindFriendsTest@3f191845]" started-at="2020-10-17T22:56:41 IST" name="findFriendsTest" data-provider="friendname" finished-at="2020-10-17T22:57:09 IST" duration-ms="27810" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sandeep]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findFriendsTest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.facebook.tests.FindFriendsTest@3f191845]" started-at="2020-10-17T22:57:09 IST" name="getResult" finished-at="2020-10-17T22:57:09 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=findFriendsTest status=SUCCESS method=FindFriendsTest.findFriendsTest(java.lang.String, java.lang.Boolean)[pri:0, instance:com.facebook.tests.FindFriendsTest@3f191845] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.facebook.tests.FindFriendsTest -->
+      <class name="com.facebook.tests.TimelineTest">
+        <test-method signature="checkAllPosts()[pri:0, instance:com.facebook.tests.TimelineTest@3ba987b8]" started-at="2020-10-17T22:55:43 IST" name="checkAllPosts" finished-at="2020-10-17T22:56:13 IST" duration-ms="30388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAllPosts -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.facebook.tests.TimelineTest@3ba987b8]" started-at="2020-10-17T22:56:13 IST" name="getResult" finished-at="2020-10-17T22:56:13 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkAllPosts status=SUCCESS method=TimelineTest.checkAllPosts()[pri:0, instance:com.facebook.tests.TimelineTest@3ba987b8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.facebook.tests.TimelineTest -->
+      <class name="com.facebook.tests.LoginTest">
+        <test-method signature="verifyUserLogin()[pri:0, instance:com.facebook.tests.LoginTest@2d901eb0]" started-at="2020-10-17T22:55:26 IST" name="verifyUserLogin" finished-at="2020-10-17T22:55:43 IST" duration-ms="16688" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserLogin -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.facebook.tests.LoginTest@2d901eb0]" started-at="2020-10-17T22:55:43 IST" name="getResult" finished-at="2020-10-17T22:55:43 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUserLogin status=SUCCESS method=LoginTest.verifyUserLogin()[pri:0, instance:com.facebook.tests.LoginTest@2d901eb0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.facebook.tests.LoginTest -->
+      <class name="com.facebook.tests.SignupTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.facebook.tests.SignupTest@35dab4eb]" started-at="2020-10-17T22:54:14 IST" name="setUp" finished-at="2020-10-17T22:54:24 IST" duration-ms="10207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="invalidPasswordTest()[pri:0, instance:com.facebook.tests.SignupTest@35dab4eb]" started-at="2020-10-17T22:54:24 IST" name="invalidPasswordTest" finished-at="2020-10-17T22:54:48 IST" duration-ms="23432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidPasswordTest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.facebook.tests.SignupTest@35dab4eb]" started-at="2020-10-17T22:54:48 IST" name="getResult" finished-at="2020-10-17T22:54:48 IST" duration-ms="26" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalidPasswordTest status=SUCCESS method=SignupTest.invalidPasswordTest()[pri:0, instance:com.facebook.tests.SignupTest@35dab4eb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="oneNumberMultipleTimesTest()[pri:0, instance:com.facebook.tests.SignupTest@35dab4eb]" started-at="2020-10-17T22:54:48 IST" name="oneNumberMultipleTimesTest" finished-at="2020-10-17T22:55:14 IST" duration-ms="25988" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oneNumberMultipleTimesTest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.facebook.tests.SignupTest@35dab4eb]" started-at="2020-10-17T22:55:14 IST" name="getResult" finished-at="2020-10-17T22:55:14 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=oneNumberMultipleTimesTest status=SUCCESS method=SignupTest.oneNumberMultipleTimesTest()[pri:0, instance:com.facebook.tests.SignupTest@35dab4eb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="alreadyExistingAccountTest()[pri:0, instance:com.facebook.tests.SignupTest@35dab4eb]" started-at="2020-10-17T22:55:14 IST" name="alreadyExistingAccountTest" finished-at="2020-10-17T22:55:26 IST" duration-ms="12294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alreadyExistingAccountTest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.facebook.tests.SignupTest@35dab4eb]" started-at="2020-10-17T22:55:26 IST" name="getResult" finished-at="2020-10-17T22:55:26 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=alreadyExistingAccountTest status=SUCCESS method=SignupTest.alreadyExistingAccountTest()[pri:0, instance:com.facebook.tests.SignupTest@35dab4eb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.facebook.tests.SignupTest@35dab4eb]" started-at="2020-10-17T22:57:09 IST" name="tearDown" finished-at="2020-10-17T22:57:10 IST" duration-ms="871" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.facebook.tests.SignupTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

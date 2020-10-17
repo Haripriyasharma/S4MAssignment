@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="com.facebook.tests.SignupTest">
+				<methods>
+					<include name="invalidPasswordTest" />
+					<include name="oneNumberMultipleTimesTest" />
+					<include name="alreadyExistingAccountTest" />
+				</methods>
+			</class>
+			<class name="com.facebook.tests.LoginTest" />
+			<class name="com.facebook.tests.TimelineTest" />
+			<class name="com.facebook.tests.FindFriendsTest" />
+			<!-- <class name="com.facebook.tests.ProfileTest" /> -->
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
